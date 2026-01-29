@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta tu Idea - De tu mente a tu pantalla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conecta tu Idea</h1>
+        <p class="eslogan">De tu mente a tu pantalla</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#mision">Misión</a></li>
+                <li><a href="#vision">Visión</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a Conecta tu Idea</h2>
+        <p>Transformamos ideas de microemprendedores en realidades digitales. Ayudamos a formalizar negocios como puestos de comida, tintorerías y más, llevándolos de la mente a la pantalla con herramientas innovadoras.</p>
+        <img src="https://via.placeholder.com/600x300?text=Imagen+de+Negocio+Digital" alt="Imagen representativa de negocio digital" width="600">
+    </section>
+
+    <section id="mision">
+        <h2>Misión</h2>
+        <p>Empoderar a microemprendedores informales proporcionando soluciones digitales accesibles y personalizadas que formalicen y potencien sus negocios, fomentando el crecimiento económico sostenible en comunidades locales.</p>
+    </section>
+
+    <section id="vision">
+        <h2>Visión</h2>
+        <p>Ser el puente principal entre la creatividad de los emprendedores y el mundo digital, convirtiendo ideas simples en negocios exitosos y conectados, contribuyendo a una economía más inclusiva y tecnológica.</p>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Somos un equipo apasionado de estudiantes y profesionales de la universidad, especializados en diseño gráfico, ingeniería en sistemas y marketing digital. Nuestro objetivo es apoyar a microemprendedores que operan en sectores informales, como puestos de comida callejera o tintorerías, ayudándolos a formalizar sus operaciones y aumentar sus ventas mediante herramientas digitales.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos un paquete completo para formalizar y potenciar tu negocio. Haz clic en cada servicio para más detalles o solicita una cotización al final.</p>
+        
+        <div class="servicio">
+            <h3><a href="#servicio-logotipo">Diseño de Logotipo y Eslogan</a></h3>
+            <p>Nuestros diseñadores gráficos crean un logotipo único y un eslogan impactante que represente tu marca y atraiga a más clientes.</p>
+        </div>
+        
+        <div class="servicio">
+            <h3><a href="#servicio-web">Página Web Personalizada</a></h3>
+            <p>Ingenieros en sistemas desarrollan una página web profesional para tu negocio, optimizada para ventas y visibilidad en línea.</p>
+        </div>
+        
+        <div class="servicio">
+            <h3><a href="#servicio-maps">Ubicación en Google Maps y Plataformas de Pedidos</a></h3>
+            <p>Te ayudamos a aparecer en Google Maps y apps de delivery (como Uber Eats o Rappi) para que más clientes te encuentren y hagan pedidos.</p>
+        </div>
+        
+        <div class="servicio">
+            <h3><a href="#servicio-ventas">Aumento de Ventas</a></h3>
+            <p>Estrategias personalizadas para optimizar procesos, desde marketing digital hasta análisis de datos, para multiplicar tus ingresos.</p>
+        </div>
+        
+        <div class="servicio">
+            <h3><a href="#servicio-chatbot">Chatbot para WhatsApp Business</a></h3>
+            <p>Implementamos un chatbot inteligente en WhatsApp para automatizar consultas, pedidos y soporte al cliente, disponible 24/7.</p>
+        </div>
+        
+        <h3>Solicita tu Cotización</h3>
+        <form id="cotizacion-form" action="https://formspree.io/f/tuemail@ejemplo.com" method="POST"> <!-- Reemplaza con tu email o un servicio como Formspree -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+            <label for="negocio">Tipo de Negocio (ej. Puesto de comida):</label>
+            <input type="text" id="negocio" name="negocio" required>
+            
+            <label for="servicios-interes">Servicios de Interés (selecciona varios):</label>
+            <select id="servicios-interes" name="servicios" multiple>
+                <option value="logotipo">Logotipo y Eslogan</option>
+                <option value="web">Página Web</option>
+                <option value="maps">Ubicación en Maps</option>
+                <option value="ventas">Aumento de Ventas</option>
+                <option value="chatbot">Chatbot WhatsApp</option>
+            </select>
+            
+            <label for="mensaje">Mensaje Adicional:</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            
+            <button type="submit">Enviar Cotización</button>
+        </form>
+    </section>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: conectatuidea@uni.edu</p>
+        <p>Teléfono: +123 456 7890</p>
+        <p>Dirección: Universidad [Nombre], Ciudad</p>
+        <p>&copy; 2023 Conecta tu Idea. Proyecto Universitario.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
